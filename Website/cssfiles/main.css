@@ -1,0 +1,49 @@
+body{
+  background-color: rgb(195, 225, 235);
+}
+.three-boxes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.hide-image{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  display: grid;
+  width:340px;
+  height: 500px;
+  margin-top: 130px;
+  margin-left: 50px;
+  grid-template-rows: 120px 1fr;
+  font-family: Arial;
+  font-size: 13px;
+  
+
+}
+.Insert-button{
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width:52px;
+}
+.no-file{
+  display: block;
+  font-size: 11px;
+  
+}
+.hide-image-box{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  width: 315px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+
+}
+.cover-image{
+  margin-top: 15px;
+  display: grid;
+  margin-left: 5px;
+}
